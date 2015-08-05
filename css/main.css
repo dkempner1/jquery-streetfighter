@@ -47,10 +47,10 @@ body {
 	height: 90px;
 	float: left;
 	position: absolute;
-	top: -167px;
+	top: 167px;
 	left: 520px;
 	z-index: 10;
-	display: none;
+	display:none;
 }
 * {
 
