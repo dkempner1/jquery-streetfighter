@@ -5,8 +5,8 @@ $(document).ready(function(){
 	$('#instruct').hide(0).delay(12000).fadeIn(3000);
 	$('#theme-tune')[0].play();
 	$('.ryu').mouseenter(function(){
-        $('.ryu-still').hide();
-        $('.ryu-ready').show();
+        $('.ryu-still').hide(0);
+        $('.ryu-ready').show(0);
     })
     .mouseleave(function() {
         $('.ryu-still').show();
