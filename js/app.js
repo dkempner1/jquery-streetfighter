@@ -1,6 +1,9 @@
 $(document).ready(function(){
 	$('.logo').hide(0).fadeIn(3000).fadeOut(1000);
-	$('#instruct').hide(0).delay(4000).fadeIn(4000);
+	$('.jquery-text').hide(0).delay(4000).fadeIn(3000).fadeOut(1000);
+	$('.jquery-logo').hide(0).delay(8000).fadeIn(3000).fadeOut(1000);
+	$('#instruct').hide(0).delay(12000).fadeIn(3000);
+	$('#theme-tune')[0].play();
 	$('.ryu').mouseenter(function(){
         $('.ryu-still').hide();
         $('.ryu-ready').show();
@@ -34,6 +37,7 @@ $(document).on('keydown', function(){
 	 			$('.ryu-throwing').hide();
 	 			$('#dig-tune')[0].play();
 	 			$('.ryu-cool').show();
+	 			$('#theme-tune')[0].pause();
 	 		}
 	 	});
 
