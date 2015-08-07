@@ -9,6 +9,45 @@ body {
 	min-width: 1200px;
 	min-height: 500px;
 	position: relative;
+	z-index: 1;
+}
+.logo {
+	background-image: url('../images/logo.png');
+	z-index: 3;
+	width:682px;
+	height: 429px;
+	background-repeat:no-repeat;
+	position: relative;
+	float: left;
+	bottom: 413px;
+    left: 500px;
+
+}	
+
+
+.instruct-a {
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Architects Daughter', cursive;
+	max-width: 400px;
+	position: relative;
+	z-index: 2;
+	float: right;
+	right:1050px;
+	bottom: 429px;
+	font-size: 120%;
+}
+.instruct-b {
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Architects Daughter', cursive;
+	max-width: 400px;
+	position: relative;
+	z-index: 2;
+	float: left;
+	left: 753px;
+    bottom: 312px;
+    font-size:120%;
 }
 .ryu {
 	width: 659px;
@@ -51,7 +90,7 @@ body {
 	height: 90px;
 	float: left;
 	position: absolute;
-	top: 167px;
+	top: 162px;
 	left: 520px;
 	z-index: 10;
 	display:none;
